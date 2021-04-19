@@ -1,0 +1,102 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color:white;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    width: 100%;
+    background-color: #FEC63E;
+    color:black;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    height: 370px;
+    background-image: url(Image/Bike_2.jpg);
+    background-size: cover;
+    background-repeat: no repeat;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 2px 5px black;
+}
+
+header h1{
+    width: 100%;
+    height: 120%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-shadow: black;
+}
+
+section {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    height: 450px;
+    color:black;
+    background-color:white;
+}
+
+input, select, textarea {
+    border: 4px solid #FEC63E;
+}
+
+button {
+    margin-top: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    border: 4px solid #FEC63E;
+    color: #FEC63E;
+}
+
+button:hover {
+    color: #FEC63E;
+    background-color: black;
+    cursor: pointer;
+}
+
+.campo{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+section div form{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+h6{
+    padding-left: 2%;
+    color: black;
+    box-sizing: border-box;
+}
+
+footer h6 {
+    display: flex;
+    align-items:center;
+    height: 60px;
+    width: 100%;
+    background-color: #FEC63E;
+    margin: 0;
+}
